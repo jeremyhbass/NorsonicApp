@@ -1,0 +1,15 @@
+name: norsonic_app
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.*
+  - numpy
+  - pandas
+  - matplotlib
+  - pip
+  - pip:
+    - xlsxwriter
+    - json
+    - zipfile
+    - os
